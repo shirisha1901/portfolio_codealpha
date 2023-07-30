@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comaptible" content="IE=edge">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>
+            Shirisha's Portfolio
+        </title>
+        <script src="https://kit.fontawesome.com/937b96d05f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="C:\Users\shiri\OneDrive\Desktop\Photos\logo.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li> <a href = "#header">Home</a></li>
+                        <li> <a href = "#about">About</a></li>
+                        <li> <a href = "#services">Services</a></li>
+                        <li> <a href = "#portfolio">Projects</a></li>
+                        <li> <a href = "#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web/Android Developer</p>
+                    <h1>Hi, I'm<br> <span>Shirisha</span> Sampelly</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-----------about-------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="C:\Users\shiri\OneDrive\Desktop\Photos\me.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Greetings! My name is Shirisha Sampelly, and I am now a student at SR University working on a Bachelor of Technology (B.Tech) degree. I consider Web development to be my main course to experience.
+
+                            I deliberately chose to concentrate on Computer Science and Engineering with specialization of Artificial Intelligence and Machine Learning to accquire more skills and also to concentrate in Web and App development.
+
+I have developed a solid foundation in programming languages like HTML, CSS, and JavaScript during the course of my academic career.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development </span><br> Web App Development</li>
+                                <li><span>App Development(basics)</span><br>Building Android/iOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Bharath Intern</span><br>Interned with Bharath Intern as a Machine Learner</li>
+                                <li><span>InternPe</span><br>Interned with InternPe as a Web Developer</li>
+                                <li><span>Code Alpha </span><br> Interned with Code Alpha as a Web Developer</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>SR University</span><br>B.Tech in CSE with AI&ML specialization</li>
+                                <li><span>SR Edu </span><br>Intermediate 1yr<br>Intermediate 2yr</li>
+                                <li><span>Tejaswi High School</span><br>Schooling</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ <!-----------------services--------------------->  
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design is the planning and creation of websites.</p>
+                <a href="https://en.wikipedia.org/wiki/Web_development#:~:text=Web%20development%20is%20the%20work%20involved%20in%20developing,web%20applications%2C%20electronic%20businesses%2C%20and%20social%20network%20services.">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Application Development</h2>
+                <p>App development is the process in which developers create an application to be used on smartphones, tablets and other mobile devices.</p>
+                <a href="https://en.wikipedia.org/wiki/Application_development">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="C:\Users\shiri\OneDrive\Desktop\Photos\house.webp">
+                <div class="layer">
+                    <h2>House Price Prediction</h2>
+                    <p>A Machine Learning model to predict the Price of House based on few features.</p>
+        
+                </div>
+            </div>
+            <div class="work">
+                <img src="C:\Users\shiri\OneDrive\Desktop\Photos\defence.png">
+                <div class="layer">
+                    <h2>DRDO DEFENCE</h2>
+                    <p>A Web page developed to know the complete information about the defence academy</p>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/shirisha1901" class="btn">See More</a>
+    </div>
+</div>
+
+<!--------------contact------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> shirishasampelly2004@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>Ping me for contact..</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/_.shirisha._rao._/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/shirisha-sampelly-8a440926b/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="C:\Users\shiri\OneDrive\Desktop\Photos\Resume1.png" download class="btn btn2">Download Resume</a>
+        </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © Shirisha <i class="fa-solid fa-heart"></i> </p>
+    </div>
+ </div>
+
+    <script>
+
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+
+    
+     <script>
+    const scriptURL = 'C:\Users\shiri\OneDrive\Desktop\Photos\Book1.xlsx'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+        
+    </body>
+</html>
